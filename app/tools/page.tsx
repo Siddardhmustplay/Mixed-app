@@ -121,7 +121,7 @@ export default function ToolsPage() {
             />
 
             <ToolLink
-              href="/tools/paint-simulator"
+              href="/tools/paint"
               icon={<Paintbrush className="w-6 h-6" />}
               title="Realistic Paint Simulator"
               description="Mix, smear, and blend digital paint like real oils"
