@@ -103,7 +103,7 @@ export default function ToolsPage() {
             />
 
             <ToolLink
-              href="/tools/light-painter"
+              href="/tools/light"
               icon={<Lightbulb className="w-6 h-6" />}
               title="Light Painter"
               description="Draw with glowing strokes of simulated neon light"
