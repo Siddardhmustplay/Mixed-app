@@ -112,7 +112,7 @@ export default function ToolsPage() {
             />
 
             <ToolLink
-              href="/tools/match-maker"
+              href="/tools/match"
               icon={<Shuffle className="w-6 h-6" />}
               title="Color Match Maker"
               description="Find perfect color matches and complementary blends"
