@@ -1,7 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
-import { hexToRgb, parseRgb, rgbToHex } from "@/lib/colors"
+import { hexToRgb, parseRgb, rgbToHex } from "../lib/colors"
 
 export default function ColorPickerPro() {
   const [hex, setHex] = useState("#4f46e5")
