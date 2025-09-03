@@ -17,6 +17,11 @@ const games = [
   { title: "Color Duplicator", slug: "color-duplicator", description: "Recreate color patterns quickly" },
   { title: "Color Catcher", slug: "color-catcher", description: "Catch falling colors before they fade" },
   { title: "Color Frequency", slug: "color-frequency", description: "Match rhythm and frequency with colors" },
+  { title: "Color Stopper", slug: "color-stopper", description: "Match rhythm and frequency with colors" },
+  { title: "Color Flash", slug: "flash-colors", description: "Match rhythm and frequency with colors" },
+  { title: "Color Match", slug: "quick-match", description: "Match rhythm and frequency with colors" },
+  { title: "Color Sort", slug: "color-sort", description: "Match rhythm and frequency with colors" },
+  
 ]
 
 export default function GameHomePage() {

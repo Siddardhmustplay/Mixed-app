@@ -16,6 +16,7 @@ import {
   Shuffle,
   Paintbrush,
 } from "lucide-react"
+import { Blend, Type, Droplet } from "lucide-react"
 import { motion } from "framer-motion"
 
 export default function ToolsPage() {
@@ -103,7 +104,7 @@ export default function ToolsPage() {
             />
 
             <ToolLink
-              href="/tools/light"
+              href="/tools/light-painter"
               icon={<Lightbulb className="w-6 h-6" />}
               title="Light Painter"
               description="Draw with glowing strokes of simulated neon light"
@@ -112,7 +113,7 @@ export default function ToolsPage() {
             />
 
             <ToolLink
-              href="/tools/match"
+              href="/tools/match-maker"
               icon={<Shuffle className="w-6 h-6" />}
               title="Color Match Maker"
               description="Find perfect color matches and complementary blends"
@@ -121,13 +122,40 @@ export default function ToolsPage() {
             />
 
             <ToolLink
-              href="/tools/paint"
+              href="/tools/paint-simulator"
               icon={<Paintbrush className="w-6 h-6" />}
               title="Realistic Paint Simulator"
               description="Mix, smear, and blend digital paint like real oils"
               color="text-red-400"
               delay={0.9}
             />
+            <ToolLink
+              href="/tools/gradient-maker"
+              icon={<Blend className="w-6 h-6" />}
+              title="Gradient Maker"
+              description="Generate linear and radial gradients, export CSS or images"
+              color="text-red-400"
+              delay={1.0}
+            />
+
+            <ToolLink
+              href="/tools/text-styler"
+              icon={<Type className="w-6 h-6" />}
+              title="Text Styler"
+              description="Style your text with colors, shadows, and gradient effects"
+              color="text-blue-400"
+              delay={1.1}
+            />
+
+            <ToolLink
+              href="/tools/color-picker-pro"
+              icon={<Droplet className="w-6 h-6" />}
+              title="Color Picker Pro"
+              description="Pick colors, preview instantly, and copy HEX/RGB"
+              color="text-green-400"
+              delay={1.2}
+            />
+
           </div>
         </section>
       </main>
